@@ -25,7 +25,7 @@ describe('epeg.Image', function(){
         });
 
         it('should throw an exception when the buffer is not valid', function(){
-            buffer = new Buffer("");
+            buffer = Buffer.from("");
             expect(function() { new epeg.Image({data: buffer}); }).to.throwException();
         });
 
