@@ -13,7 +13,7 @@ using namespace v8;
 class Image: public node::ObjectWrap {
  public:
   static Persistent<FunctionTemplate> constructor;
-  static void Initialize(Handle<Object>);
+  static void Initialize(Local<Object>);
 
   static void New(const FunctionCallbackInfo<Value> &args);
   static void Downsize(const FunctionCallbackInfo<Value> &args);

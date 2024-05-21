@@ -11,8 +11,8 @@
     "url": "git://github.com/phorque/node-epeg.git"
   },
   "devDependencies": {
-    "mocha": "~1.12",
-    "expect.js": "~0.2.0"
+    "mocha": "~10.4",
+    "expect.js": "~0.3.1"
   },
   "keywords": [
     "node",

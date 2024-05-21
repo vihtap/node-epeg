@@ -3,7 +3,7 @@
 
 #include "Image.h"
 
-void init(Handle<Object> target) {
+void init(Local<Object> target) {
   Image::Initialize(target);
 }
 
